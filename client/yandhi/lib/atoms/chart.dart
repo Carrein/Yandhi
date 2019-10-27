@@ -34,8 +34,9 @@ class ChartState extends State<Chart> {
             borderRadius: const BorderRadius.all(Radius.circular(4.0)),
             gradient: LinearGradient(
               colors: const [
-                Color(0xff2c274c),
-                Color(0xff46426c),
+                // Color(0xff2c274c),
+                Color(0xbb0E1126),
+                Color(0xee65AFBF),
               ],
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
@@ -76,7 +77,7 @@ class ChartState extends State<Chart> {
           reservedSize: 25,
           textStyle: TextStyle(
             color: Config.offWhite,
-            fontSize: 12,
+            fontSize: 10,
           ),
           margin: 10,
           getTitles: (value) {
@@ -99,25 +100,25 @@ class ChartState extends State<Chart> {
           showTitles: true,
           textStyle: TextStyle(
             color: Config.offWhite,
-            fontSize: 12,
+            fontSize: 10,
           ),
           getTitles: (value) {
             switch (value.toInt()) {
               case 1:
-                return '1m';
+                return '0mg';
               case 2:
-                return '2m';
+                return '50mg';
               case 3:
-                return '3m';
+                return '100mg';
               case 4:
-                return '5m';
+                return '150mg';
               case 5:
-                return '6m';
+                return '200mg';
             }
             return '';
           },
-          margin: 8,
-          reservedSize: 30,
+          margin: 10,
+          reservedSize: 40,
         ),
       ),
       borderData: FlBorderData(
@@ -146,31 +147,31 @@ class ChartState extends State<Chart> {
 
   List<LineChartBarData> linesBarData2() {
     return [
-      const LineChartBarData(
-        spots: [
-          FlSpot(1, 1),
-          FlSpot(3, 4),
-          FlSpot(5, 1.8),
-          FlSpot(7, 5),
-          FlSpot(10, 2),
-          FlSpot(12, 2.2),
-          FlSpot(13, 1.8),
-          FlSpot(14, 1.8),
-        ],
-        isCurved: true,
-        curveSmoothness: 0,
-        colors: [
-          Color(0x444af699),
-        ],
-        barWidth: 3,
-        isStrokeCapRound: true,
-        dotData: FlDotData(
-          show: false,
-        ),
-        belowBarData: BarAreaData(
-          show: false,
-        ),
-      ),
+      // const LineChartBarData(
+      //   spots: [
+      //     FlSpot(1, 1),
+      //     FlSpot(3, 4),
+      //     FlSpot(5, 1.8),
+      //     FlSpot(7, 5),
+      //     FlSpot(10, 2),
+      //     FlSpot(12, 2.2),
+      //     FlSpot(13, 1.8),
+      //     FlSpot(14, 1.8),
+      //   ],
+      //   isCurved: true,
+      //   curveSmoothness: 0,
+      //   colors: [
+      //     Color(0x444af699),
+      //   ],
+      //   barWidth: 3,
+      //   isStrokeCapRound: true,
+      //   dotData: FlDotData(
+      //     show: false,
+      //   ),
+      //   belowBarData: BarAreaData(
+      //     show: false,
+      //   ),
+      // ),
       const LineChartBarData(
         spots: [
           FlSpot(1, 1),
@@ -183,40 +184,40 @@ class ChartState extends State<Chart> {
         ],
         isCurved: true,
         colors: [
-          Color(0x99aa4cfc),
+          Color(0x99F2F2F2),
         ],
-        barWidth: 3,
+        barWidth: 1,
         isStrokeCapRound: true,
         dotData: FlDotData(
           show: false,
         ),
         belowBarData: BarAreaData(show: true, colors: [
-          Color(0x33aa4cfc),
+          Color(0x55ffc107),
         ]),
       ),
-      const LineChartBarData(
-        spots: [
-          FlSpot(1, 3.8),
-          FlSpot(3, 1.9),
-          FlSpot(6, 5),
-          FlSpot(10, 3.3),
-          FlSpot(13, 4.5),
-          FlSpot(14, 4.5),
-        ],
-        isCurved: true,
-        curveSmoothness: 0,
-        colors: [
-          Color(0x4427b6fc),
-        ],
-        barWidth: 2,
-        isStrokeCapRound: true,
-        dotData: FlDotData(
-          show: true,
-        ),
-        belowBarData: BarAreaData(
-          show: false,
-        ),
-      ),
+      // const LineChartBarData(
+      //   spots: [
+      //     FlSpot(1, 3.8),
+      //     FlSpot(3, 1.9),
+      //     FlSpot(6, 5),
+      //     FlSpot(10, 3.3),
+      //     FlSpot(13, 4.5),
+      //     FlSpot(14, 4.5),
+      //   ],
+      //   isCurved: true,
+      //   curveSmoothness: 0,
+      //   colors: [
+      //     Color(0x4427b6fc),
+      //   ],
+      //   barWidth: 2,
+      //   isStrokeCapRound: true,
+      //   dotData: FlDotData(
+      //     show: true,
+      //   ),
+      //   belowBarData: BarAreaData(
+      //     show: false,
+      //   ),
+      // ),
     ];
   }
 

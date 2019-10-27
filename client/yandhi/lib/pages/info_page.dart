@@ -59,7 +59,7 @@ class _InfoPageState extends State<InfoPage> {
               children: <Widget>[
                 Button(
                   onTap: () => null,
-                  text: "Hello",
+                  text: "Sync glucose meter.",
                 ),
               ],
             ),
@@ -67,7 +67,7 @@ class _InfoPageState extends State<InfoPage> {
               children: <Widget>[
                 Button(
                   onTap: () => null,
-                  text: "Hello",
+                  text: "Book an appointment.",
                 ),
               ],
             ),

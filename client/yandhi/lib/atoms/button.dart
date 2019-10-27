@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yandhi/globals/config.dart';
 
 class Button extends StatelessWidget {
   final String _text;
@@ -25,7 +26,10 @@ class Button extends StatelessWidget {
         margin: EdgeInsets.all(15),
         height: 40.0,
         decoration: BoxDecoration(
-          border: Border.all(width: 1.5, color: _mutedColor),
+          color: Config.offWhite,
+          borderRadius: BorderRadius.all(
+            const Radius.circular(4.0),
+          ),
         ),
         child: Material(
           color: Colors.transparent,
