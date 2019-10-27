@@ -28,6 +28,7 @@ dependencies:
   flutter_page_transition: ^0.1.0
   fl_chart: ^0.3.4
   bubble: ^1.1.9+1
+  http: ^0.12.0+2
 
 dev_dependencies:
   flutter_test:
