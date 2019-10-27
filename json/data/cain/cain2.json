@@ -1,0 +1,61 @@
+{
+    "resourceType": "Patient",
+    "name": [
+        {
+            "use": "official",
+            "family": "Cain",
+            "given": [
+                "Constantine"
+            ]
+        }
+    ],
+    "active": true,
+    "identifier": [
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "Blood Pressure",
+                        "code": "89"
+                    }
+                ]
+            },
+            "system": "Glucose Level: 80",
+            "value": "Normal",
+            "period": {
+                "start": "2019-02-11"
+            },
+            "assigner": {
+                "display": "Kaiser Medical Center"
+            }
+        }
+    ],
+    "telecom": [
+        {
+            "use": "home"
+        },
+        {
+            "system": "phone",
+            "value": "(450) 785 0611",
+            "use": "work",
+            "rank": 1
+        }
+    ],
+    "address": {
+        "use": "home",
+        "type": "both",
+        "line": [
+            "121 Pope St"
+        ],
+        "city": "San Francisco",
+        "district": "Daly City",
+        "state": "California",
+        "postalCode": "94113",
+        "period": {
+            "start": "2010-09-03"
+        }
+    },
+    "gender": "male",
+    "birthDate": "1990-06-03"
+}

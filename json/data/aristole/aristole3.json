@@ -1,0 +1,61 @@
+{
+    "resourceType": "Patient",
+    "name": [
+        {
+            "use": "official",
+            "family": "Aristole",
+            "given": [
+                "Aaron"
+            ]
+        }
+    ],
+    "active": true,
+    "identifier": [
+        {
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "Blood Pressure",
+                        "code": "125"
+                    }
+                ]
+            },
+            "system": "Glucose Level: 270",
+            "value": "Type 2 Diabetes",
+            "period": {
+                "start": "2019-03-15"
+            },
+            "assigner": {
+                "display": "Stanford Healthcare"
+            }
+        }
+    ],
+    "telecom": [
+        {
+            "use": "home"
+        },
+        {
+            "system": "phone",
+            "value": "(650) 5555 6473",
+            "use": "work",
+            "rank": 1
+        }
+    ],
+    "address": {
+        "use": "home",
+        "type": "both",
+        "line": [
+            "1108 3nd Ave"
+        ],
+        "city": "Redwood City",
+        "district": "San Mateo",
+        "state": "California",
+        "postalCode": "99567",
+        "period": {
+            "start": "1974-12-25"
+        }
+    },
+    "gender": "male",
+    "birthDate": "1960-12-25"
+}
