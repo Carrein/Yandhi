@@ -1,0 +1,11 @@
+{
+    "resourceType": "CarePlan",
+    "identifier": "pre-diabetes patient",
+    "category": "Lifestyle education regarding hypertension",
+    "activity": "Counseling about alcohol consumption",
+    "detail": "Dietary approaches to stop hypertension diet",
+    "status": "in-progress",
+    "statusReason": "Patient consumes copius amounts of alcohol weekly",
+    "nutritionOrder": "More fresh fruits and leafy vegetables in diet",
+    "nutritionOrderStatusReason": "Dietary approaches to stop hypertension diet"
+}

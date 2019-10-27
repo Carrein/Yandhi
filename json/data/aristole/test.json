@@ -1,0 +1,11 @@
+{
+    "resourceType": "CarePlan",
+    "identifier": "diabetes patient",
+    "category": "Respiratory therapy",
+    "activity": "Deep breathing and coughing exercises",
+    "avoid": "Recommendation to avoid exercise",
+    "status": "completed",
+    "statusReason": "User has recovered",
+    "medicationRequest": "Asthma Inhaler",
+    "medicationRequestStatusReason": "In case of relapse"
+}

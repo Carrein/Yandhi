@@ -1,0 +1,9 @@
+{
+    "resourceType": "CarePlan",
+    "identifier": "normal patient",
+    "category": "Physical therapy procedure",
+    "activity": "Stretching exercises",
+    "detail": "Rest, ice, compression and elevation treatment programme",
+    "status": "in-progress",
+    "statusReason": "Patient arm is still sprained"
+}

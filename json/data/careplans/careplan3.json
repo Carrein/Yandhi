@@ -1,0 +1,11 @@
+{
+    "resourceType": "CarePlan",
+    "identifier": "diabetes patient",
+    "category": "Wound Care",
+    "activity": "Dressing change management",
+    "detail": "Behavior to prevent infection",
+    "status": "completed",
+    "statusReason": "Wound is almost healed",
+    "medicationRequest": "Light Intensity Painkillers",
+    "medicationRequestStatusReason": "In case if wound still hurts"
+}

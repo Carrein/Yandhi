@@ -1,0 +1,11 @@
+{
+    "resourceType": "CarePlan",
+    "identifier": "diabetes patient",
+    "category": "Diabetes self management plan",
+    "activity": "Diabetic diet",
+    "detail": "Exercise therapy",
+    "status": "in-progress",
+    "statusReason": "User has diabetes",
+    "medicationRequest": "Insulin",
+    "medicationRequestStatusReason": "User has insulin deficiency"
+}
