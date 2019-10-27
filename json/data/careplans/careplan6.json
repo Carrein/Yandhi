@@ -1,0 +1,9 @@
+{
+    "resourceType": "CarePlan",
+    "identifier": "normal patient",
+    "category": "Allergic disorder assessment",
+    "activity": "Allergy screening test",
+    "detail": "To diagnose if user has allergic disorders",
+    "status": "in-progress",
+    "statusReason": "Initial stage"
+}
