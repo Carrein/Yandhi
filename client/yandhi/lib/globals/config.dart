@@ -9,5 +9,5 @@ class Config {
   static final Color offWhite = const Color(0xFFF2F2F2);
   static final Color offBlue = const Color(0xFFC3D7DF);
 
-  static final String localhost = 'localhost:5000/post';
+  static final String localhost = 'http://10.0.2.2:5000/post';
 }

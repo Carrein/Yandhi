@@ -12,6 +12,7 @@ class ChatHelper {
         .timeout(Duration(seconds: 5), onTimeout: () {
       return null;
     });
+    print(response);
     if (response.statusCode == 200) {
       print(response.body);
       return response.body;

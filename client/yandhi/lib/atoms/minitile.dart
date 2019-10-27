@@ -30,7 +30,7 @@ class MiniTile extends StatelessWidget {
       width: 80.0,
       margin: EdgeInsets.all(10.0),
       child: FlatButton(
-        splashColor: Config.tealBlue,
+        splashColor: Colors.amber[800],
         onPressed: () {
           Navigator.of(context).push(PageTransition(
               type: PageTransitionType.rippleRightUp,

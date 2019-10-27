@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:yandhi/globals/config.dart';
 import 'package:yandhi/pages/scroll_page.dart';
 
-void main() {
+void main() async {
   runApp(
     MaterialApp(
       theme: ThemeData(
